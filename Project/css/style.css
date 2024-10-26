@@ -1,0 +1,33 @@
+body{font-family: "Josefin Sans", sans-serif !important;}
+.f-opensans{font-family: "Open Sans", sans-serif !important;}
+.slider-img{ filter: brightness(20%) !important;}
+.bg-img-filter{ filter: brightness(10%) !important;}
+p{margin-bottom: 0 !important;}
+.fs-60px{font-size: 60px;}
+.fs-14px{font-size: 14px;}
+.lh-25px{line-height: 25px;}
+.abs-50{top: 30%; left: 13%;}
+.abs-left{top:155%; left:10%}
+.abs-card11{bottom:-11%}
+.abs-card6{bottom: 6%;}
+.m-center{margin: 0 auto;}
+.w-70{width: 60%;}
+.mypx-5{padding-left: 5%; padding-right: 4%;}
+.mypy-all5{padding-top: 5%;  padding-bottom: 5%;}
+.py-6{padding-top: 6%; padding-bottom: 6%;}
+.py-7{padding-top: 7%; padding-bottom: 7%;}
+.ps-15{padding-left: 15%;}
+.mypx-2{padding-left: 2%; padding-right: 2%;}
+.mb-10{margin-bottom: 10%;}
+.bg-img{background-image: url(../img/service-bg.jpg); background-attachment: fixed;}
+.abs-bg-img{top: -3%;}
+.fcard-slider{font-size: 14px; line-height: 25px;}
+.prev-arr{top:101%; left: 46.5%;}
+.next-arr{top: 101%; right: 46.5%;}
+.abs-phone{top:43%; left: 10%;}
+.abs-man{top:22%; left: 5%; filter: drop-shadow(-10px 10px 6px rgba(0, 0, 0, 0.15));}
+.arr-h{height: 18px; padding-bottom: 1.4%; padding-left: 0.9%; padding-right: 0.9%;}
+.round-sb{border-radius: 0 0 0 6px;}
+a{text-decoration: none;}
+.bg-notBlack-notDark{background-color: #1a1a1a;} /* i ran out of names :) */
+.footer-shadow{box-shadow: 0px -9px 20px 0px rgba(0, 0, 0, 0.3);}
