@@ -9,7 +9,7 @@ p{margin-bottom: 0 !important;}
 .fw-600{font-weight: 600;}
 .lh-25px{line-height: 25px;}
 .abs-50{top: 30%; left: 13%;}
-.abs-left{top:155%; left:10%}
+.abs-left{top:157%; left:10%}
 .abs-card11{bottom:-30%}
 .abs-card6{bottom: -26.5%;}
 .m-center{margin: 0 auto;}
@@ -53,14 +53,12 @@ a{text-decoration: none;}
 .change-blogTextColor:hover{color: #0c65ed !important;}
 .rotate-img{transition:all 0.5s; width: 100%;}
 .blog-animation:hover .rotate-img{transform: scale(1.1) rotate(-3deg); }
-.change-blogBorderColor{border-color: #0c65ed!important; width: 35%;height: 1px; transition: width 0.3s;}
+.change-blogBorderColor{background-color: #0c65ed!important; width: 35%;height: 1px; transition: width 0.3s;}
 .blog-animation:hover .change-blogBorderColor{width: 100%;}
 .img-hover-filter:hover{filter: brightness(60%);  transition: 0.5s;}
 .link-hover-color:hover{background-color: #0c65ed!important;  color: #fff !important; transition: 0.5s;}
 .nav-indecator-hover{transition: all 0.5s; transform: scale(100%);}
 .nav-indecator-hover:hover{transform: scale(150%); background-color: black !important; border:1px #fff solid !important;}
-/* .shine-animation{background-color: white; opacity: 0.2; transform: rotate(45deg) translateX(0); transition: all ease 1s;}
-.shine-animation:hover .shine{transform: translateY(100%);} */
 .shine::before{content:''; position: absolute; background-color: rgba(255, 255, 255, 0.3) ; height: 60px; width: 50px; overflow: hidden; left: 0 ;transform: skewX(-300deg);}
 .shine:hover:before{animation: slide 3s;}
 @keyframes slide{
