@@ -1,15 +1,17 @@
 body{font-family: "Josefin Sans", sans-serif !important;}
 .f-opensans{font-family: "Open Sans", sans-serif !important;}
-.slider-img{ filter: brightness(20%) !important;}
+.slider-img{ filter: brightness(25%) !important;}
 .bg-img-filter{ filter: brightness(10%) !important;}
 p{margin-bottom: 0 !important;}
 .fs-60px{font-size: 60px;}
 .fs-14px{font-size: 14px;}
+.fs-18px{font-size: 18px;}
+.fw-600{font-weight: 600;}
 .lh-25px{line-height: 25px;}
 .abs-50{top: 30%; left: 13%;}
 .abs-left{top:155%; left:10%}
-.abs-card11{bottom:-11%}
-.abs-card6{bottom: 6%;}
+.abs-card11{bottom:-30%}
+.abs-card6{bottom: -26.5%;}
 .m-center{margin: 0 auto;}
 .w-70{width: 60%;}
 .mypx-5{padding-left: 5%; padding-right: 4%;}
@@ -20,14 +22,54 @@ p{margin-bottom: 0 !important;}
 .mypx-2{padding-left: 2%; padding-right: 2%;}
 .mb-10{margin-bottom: 10%;}
 .bg-img{background-image: url(../img/service-bg.jpg); background-attachment: fixed;}
+.bg-img-contact{background-image: url(../img/contact-ban.jpg); background-position-x: 45%;}
 .abs-bg-img{top: -3%;}
 .fcard-slider{font-size: 14px; line-height: 25px;}
 .prev-arr{top:101%; left: 46.5%;}
 .next-arr{top: 101%; right: 46.5%;}
 .abs-phone{top:43%; left: 10%;}
+.abs-cont{top:35%; left:0%}
 .abs-man{top:22%; left: 5%; filter: drop-shadow(-10px 10px 6px rgba(0, 0, 0, 0.15));}
 .arr-h{height: 18px; padding-bottom: 1.4%; padding-left: 0.9%; padding-right: 0.9%;}
 .round-sb{border-radius: 0 0 0 6px;}
 a{text-decoration: none;}
 .bg-notBlack-notDark{background-color: #1a1a1a;} /* i ran out of names :) */
+.teamCard_shadow{box-shadow: 0px -5px 1rem 0px rgba(0, 0, 0, 0.15) !important;}
 .footer-shadow{box-shadow: 0px -9px 20px 0px rgba(0, 0, 0, 0.3);}
+.hidden-servicesDiv{width: 100%; height: 100%; bottom: 0; transition: transform 0.2s; transform: translateY(100%);}
+.services-animation:hover .hidden-servicesDiv{ transform: translateY(0);}
+.hidden-workDiv{width: 95%; left: 2.5%; bottom: 2%; transform: scaleX(0); transition: 0.3s;}
+.ourWork_animation:hover{box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5) !important;}
+.ourWork_animation:hover .hidden-workDiv{transform: scaleX(1);}
+.hidden-teamDiv{transition: transform 0.3s;  transform: translateY(0);}
+.hidden-border{transition: all 0.2s}
+.hidden-socails{transition: transform 0.5s; transform: scaleY(0); }
+.teams_animation:hover .hidden-border{border-bottom: none !important;}
+.teams_animation:hover .hidden-teamDiv{transform: translateY(-57%);}
+.teams_animation:hover .hidden-socails{transform: scaleY(100%);}
+.change-blogBarColor{transition: all 0.3s;}
+.change-blogTextColor{transition: all 0.3s;}
+.blog-animation:hover .change-blogBarColor{background-color: #0c65ed!important;}
+.change-blogTextColor:hover{color: #0c65ed !important;}
+.rotate-img{transition:all 0.5s; width: 100%;}
+.blog-animation:hover .rotate-img{transform: scale(1.1) rotate(-3deg); }
+.change-blogBorderColor{border-color: #0c65ed!important; width: 35%;height: 1px; transition: width 0.3s;}
+.blog-animation:hover .change-blogBorderColor{width: 100%;}
+.img-hover-filter:hover{filter: brightness(60%);  transition: 0.5s;}
+.link-hover-color:hover{background-color: #0c65ed!important;  color: #fff !important; transition: 0.5s;}
+.nav-indecator-hover{transition: all 0.5s; transform: scale(100%);}
+.nav-indecator-hover:hover{transform: scale(150%); background-color: black !important; border:1px #fff solid !important;}
+/* .shine-animation{background-color: white; opacity: 0.2; transform: rotate(45deg) translateX(0); transition: all ease 1s;}
+.shine-animation:hover .shine{transform: translateY(100%);} */
+.shine::before{content:''; position: absolute; background-color: rgba(255, 255, 255, 0.3) ; height: 60px; width: 50px; overflow: hidden; left: 0 ;transform: skewX(-300deg);}
+.shine:hover:before{animation: slide 3s;}
+@keyframes slide{
+    0%,100%{
+        left: 0;
+    }
+    50%{
+        left: 50%;
+    }
+}
+.nav-link {color: black !important;}
+.nav-link.active {color:#0c65ed !important;} 
